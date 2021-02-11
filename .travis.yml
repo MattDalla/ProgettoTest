@@ -2,4 +2,4 @@ languag: java
 jdk: "-openjdk11"
 
 script:
- -ant build
+    - mvn test -B
